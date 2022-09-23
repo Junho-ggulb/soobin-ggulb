@@ -1,0 +1,140 @@
+body {
+    background: url(../img/bg_project_intro.png)no-repeat center/cover;
+}
+
+h1 {
+    position: fixed;
+    top: 6%;
+    left: 80px;
+    display: inline-block;
+}
+
+h1 img {
+    width: 160px;
+}
+
+.intro-title {
+    color: var(--white);
+    position: fixed;
+    top: 25%;
+    left: 80px;
+}
+
+.intro-title .sub-title {
+    margin-top: 36px;
+}
+
+.btn-prev {
+    position: fixed;
+    bottom: 6%;
+    left: 80px;
+    color: var(--white);
+    height: 25px;
+}
+
+.btn-prev img {
+    width: 64px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.project-make-area {
+    width: 40vw;
+    height: 100vh;
+    background: var(--white);
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.project-make-area > div {
+    width: 100%;
+    height: 50%;
+    padding: 0 78px;
+    color: var(--white);
+    padding-top: 10%;
+    position: relative;
+}
+
+.project-make-area .top {
+    background: var(--success);
+}
+
+.project-make-area .bot {
+    background: var(--bluegray);
+}
+
+.project-make-area .icon-frame {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 28px;
+}
+
+.project-make-area .icon-frame img {
+    height: 100%;
+}
+
+.project-make-area h3 {
+    margin-bottom: 16px;
+}
+
+.project-make-area p {
+    line-height: 1.5;
+}
+
+.project-make-area p > span {
+    color: #E6FF4B;
+    text-decoration: underline;
+}
+
+.project-make-area .btn-go {
+    width: 264px;
+    height: 80px;
+    border-radius: 67px;
+    border: 4px solid;
+    border-color: rgba(255,255,255,0.4);
+    position: absolute;
+    bottom: 10%;
+    right: 78px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.project-make-area .btn-go > img {
+    width: 50px;
+    transform: rotate(180deg);
+    margin-left: 40px;
+    margin-top: 28px;
+}
+
+/*태블릿*/
+@media (width:1340px) {
+
+  h1 {
+    top: 7.5%;
+}
+
+   ..btn-prev {
+    bottom: 7.5%;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

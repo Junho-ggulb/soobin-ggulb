@@ -1,0 +1,171 @@
+/*----------폰트----------*/
+@font-face {
+    font-family: 'SpoqaHanSansNeo-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+/*Regular*/
+.f-r-16 {
+    font-size: 16px;
+    letter-spacing: -2%;
+}
+
+.f-r-18 {
+    /*수정*/
+    font-size: 16px;
+    letter-spacing: -2%;
+}
+
+
+.f-r-20 {
+    /*수정*/
+    font-size: 18px;
+    letter-spacing: -2%;
+}
+
+.f-r-24 {
+    /*수정*/
+    font-size: 20px;
+    letter-spacing: -2%;
+}
+
+.f-r-40 {
+    /*수정*/
+    font-size: 36px;
+    letter-spacing: -2%;
+}
+
+/*Medium*/
+.f-m-16 {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -2%;
+}
+
+.f-m-18 {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -2%;
+}
+
+.f-m-20 {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -2%;
+}
+
+.f-m-22 {
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: -2%;
+}
+
+.f-m-24 {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: -2%;
+}
+
+/*Bold*/
+.f-b-20 {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -2%;
+}
+
+.f-b-24 {
+    /*수정*/
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -2%;
+}
+
+.f-b-28 {
+    /*수정*/
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: -2%;
+}
+
+.f-b-40 {
+    /*수정*/
+    font-size: 36px;
+    letter-spacing: -2%;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.f-b-60 {
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: -2%;
+}
+
+.f-b-72 {
+    /*수정*/
+    font-size: 64px;
+    font-weight: bold;
+    letter-spacing: -2%;
+}
+
+
+
+/*미디어쿼리*/
+
+/*태블릿*/
+@media (max-width:1340px) {
+
+    /*Regular*/
+    .f-r-18 {
+        font-size: 12px;
+    }
+
+
+    .f-r-20 {
+        font-size: 12px;
+    }
+
+    .f-r-24 {
+        font-size: 18px;
+    }
+
+    .f-r-40 {
+        font-size: 24px;
+    }
+
+    /*Medium*/
+
+    .f-m-18 {
+        font-size: 12px;
+    }
+
+    .f-m-20 {
+    font-size: 14px;
+}
+
+    /*Bold*/
+    .f-b-20 {
+        font-size: 14px;
+    }
+
+    .f-b-24 {
+        font-size: 18px;
+    }
+
+    .f-b-40 {
+        font-size: 24px;
+    }
+
+    .f-b-72 {
+        font-size: 44px;
+    }
+
+
+
+}

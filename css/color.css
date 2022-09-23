@@ -1,0 +1,26 @@
+/*-- 컬러 가이드 --*/
+:root {
+    --white : #FFF;
+    --gray50 : #FBFBFB;
+    --gray100 : #F5F5F5;
+    --gray200 : #EEEEEE;
+    --gray300 : #DEDEDE;
+    --gray400 : #BDBDBD;
+    --gray500 : #9E9E9E;
+    --gray600 : #7D7D7D;
+    --gray700 : #535353;
+    --gray800 : #333333;
+    --gray900 : #000000;
+
+    --green01 : #05D041;
+    --green02 : #69E38D;
+    --green03 : #DAF1DE;
+
+    --blue01 : #4182DC;
+    --bluegray : #6E767B;
+
+    --error : #DD3350;
+    --warning : #F4BA4B;
+    --success : #00C33A;
+
+}

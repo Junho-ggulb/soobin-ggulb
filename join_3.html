@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title>PULSET</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/color.css">
+    <link rel="stylesheet" href="./css/join_project_style.css">
+
+</head>
+
+<body class="cl">
+    <!--왼쪽 사이드 영역-->
+    <div class="side-area">
+        <!--<a href="join_2_1.html" class="btn-page-prev">
+            <i class="fa-solid fa-chevron-left"></i>
+        </a>-->
+    </div>
+    <!-- / 왼쪽 사이드 영역-->
+
+    <!--컨텐츠영역-->
+    <div class="content-area join-3">
+        <!--헤더-->
+        <div class="header">
+            <h2 class="title f-b-28">
+                회원가입
+                <span class="f-b-20">필셋 가입을 환영합니다.</span>
+            </h2>
+
+            <div class="page-progress">
+                <span class="bar"></span>
+            </div>
+        </div>
+        <!--헤더-->
+
+        <!--주 컨텐츠-->
+        <div class="main-content-frame">
+            <div class="wrap">
+                <h3 class="f-b-40">
+                    <span class="icon-attention">
+                        <i class="fa-sharp fa-solid fa-exclamation"></i>
+                    </span><br>
+                    회원 가입 완료<br>
+                    지금부터 프로젝트를 생성 가능합니다.
+                </h3>
+
+                <ul class="text-box">
+                    <li>
+                        이메일을 통해서 같이 작업할 멤버를 초대할 수 있습니다.
+                    </li>
+                    <li>
+                        프로젝트 생성 > 분석 홈 > 상단 멤버 관리에서 추후 관리할 수 있습니다.
+                    </li>
+                </ul>
+
+                <!--버튼-->
+                <div class="btn-frame">
+                    <a href="#" class="btn btn-gray btn-next">
+                        프로젝트 생성
+                    </a>
+                    <a href="#" class="btn btn-green btn-next">
+                        멤버초대
+                    </a>
+                </div>
+
+                <!-- / 버튼-->
+
+                <!--저작권-->
+                <p class="copyright f-r-18">© Pulset. All Rights Reserved.</p>
+                <!-- / 저작권-->
+            </div>
+        </div>
+
+        <!-- / 주 컨텐츠-->
+
+    </div>
+    <!-- / 컨텐츠영역-->
+
+    <!--모달팝업 (멤버 초대) -->
+    <div class="modal-popup invite-mem">
+        <div class="content-area">
+            <!--닫기버튼-->
+            <a href="#" class="btn-close">
+                <i class="fa-sharp fa-solid fa-x"></i>
+            </a>
+
+            <!--초대입력영역-->
+            <div class="title">
+                <h4 class="f-b-24">
+                    멤버초대
+                </h4>
+                <p class="f-m-20">
+                    이메일을 통해 작업자를 초대할 수 있고,<br>해당 인원은 이메일을 통한 초대링크를 확인하여 멤버초대를 수락합니다.
+                </p>
+                <div class="input-wrap cl">
+                    <div class="input-frame">
+                        <input type="email" class="form-input f-r-24" id="certifyEmail" placeholder="이메일">
+                        <label for="certifyEmail" class="form-label f-r-20">이메일</label>
+                    </div>
+                    <a href="#" class="btn btn-gray btn-addmem">
+                        <i class="fa-solid fa-user-plus"></i>
+                    </a>
+                </div>
+
+
+            </div>
+
+            <!--초대리스트-->
+            <div class="invite-list-area">
+                <h4 class="f-m-20">
+                    Invite List
+                </h4>
+                <ul class="invite-list">
+                    <li class="cl">
+                        <div class="profile">
+                            <img src="img/user_profile_img.png" alt="사용자지정프로필이미지">
+                        </div>
+                        <div class="user-info">
+                            <p class="email f-m-20">
+                                (사용자이메일)
+                                <span class="badge f-m-16">You</span>
+                                <!--첫번째li에만 해당-->
+                            </p>
+                            <p class="company f-m-18">(소속사)</p>
+                        </div>
+                        <div class="authority">
+                            <select name="authority" id="invite-authority1" class="f-m-18">
+                                <option value="owner">Owner</option>
+                                <option value="worker">Worker</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li class="cl">
+                        <div class="profile">
+                            <img src="img/user_profile_img.png" alt="사용자지정프로필이미지">
+                        </div>
+                        <div class="user-info">
+                            <p class="email f-m-20">
+                                (사용자이메일)
+                            </p>
+                            <p class="company f-m-18">(소속사)</p>
+                        </div>
+                        <div class="authority">
+                            <select name="authority" id="invite-authority1" class="f-m-18">
+                                <option value="owner">Owner</option>
+                                <option value="worker">Worker</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li class="cl">
+                        <div class="profile">
+                            <img src="img/user_profile_img.png" alt="사용자지정프로필이미지">
+                        </div>
+                        <div class="user-info">
+                            <p class="email f-m-20">
+                                (사용자이메일)
+                            </p>
+                            <p class="company f-m-18">(소속사)</p>
+                        </div>
+                        <div class="authority">
+                            <select name="authority" id="invite-authority1" class="f-m-18">
+                                <option value="owner">Owner</option>
+                                <option value="worker">Worker</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li class="cl">
+                        <div class="profile">
+                            <img src="img/user_profile_img.png" alt="사용자지정프로필이미지">
+                        </div>
+                        <div class="user-info">
+                            <p class="email f-m-20">
+                                (사용자이메일)
+                            </p>
+                            <p class="company f-m-18">(소속사)</p>
+                        </div>
+                        <div class="authority">
+                            <select name="authority" id="invite-authority1" class="f-m-18">
+                                <option value="owner">Owner</option>
+                                <option value="worker">Worker</option>
+                            </select>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+            <!--초대버튼-->
+            <div class="btn-frame">
+                <a href="#" class="btn btn-green">
+                    멤버 초대
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- / 모달팝업 (멤버초대) -->
+
+    <!--모달팝업 (메일 발송 안내) -->
+    <div class="modal-popup send-mail-ok active">
+        <div class="content-area">
+            <!--닫기버튼-->
+            <a href="#" class="btn-close">
+                <i class="fa-sharp fa-solid fa-x"></i>
+            </a>
+
+            <!--컨텐츠내용-->
+            <div class="title">
+                <div class="icon-frame">
+                    <img src="img/icon_mail.png" alt="메일 아이콘" class="icon-mail">
+                </div>
+                <h4 class="f-b-40">
+                    초대 메일이 발송되었습니다
+                </h4>
+                <p class="f-m-24">
+                    초대 메일을 받은 상대가 메일 확인 및 초대 승락시 멤버로 추가됩니다.<br>
+                    확인 요청 부탁드립니다.
+                </p>
+            </div>
+
+            <!--프로젝트생성버튼-->
+            <div class="btn-frame">
+                <a href="#" class="btn btn-green">
+                    프로젝트 생성
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- / 모달팝업 (메일 발송 안내) -->
+
+    <!--스크립트-->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/e22a510a0a.js" crossorigin="anonymous"></script>
+    <!-- / 스크립트-->
+
+</body></html>
